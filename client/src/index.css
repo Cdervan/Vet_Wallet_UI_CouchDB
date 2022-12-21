@@ -1,0 +1,181 @@
+* {
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #23252C;
+}
+
+.setup {
+  margin: auto;
+  width: 500px;
+  height: 900px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.app-header {
+  display: flex;
+  background-color: #161619;
+  margin-top: 20px;
+  font-size: 42px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.logo {
+  margin: 35px 0px 0px 45px;
+  height: 75px;
+  width: 75px;
+}
+
+.app-title {
+  height: 50px;
+  margin-top: 50px;
+  width: 300px;
+  border-radius: 6px;
+}
+
+.button-setup {
+  max-width: 200px;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.connect-wallet {
+  min-width: 200px;
+  margin-bottom: 75px;
+  background-color: transparent;
+
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.create-wallet {
+  min-width: 200px;
+  background-color: transparent;
+  color: #22C1FD;
+
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #22C1FD;
+
+  box-shadow: none;
+}
+
+.connect-wallet:hover {
+  opacity: 0.3;
+}
+
+.create-wallet:hover {
+  opacity: 0.3;
+}
+
+.create-page {
+  margin: auto;
+  width: 500px;
+  height: 900px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.username-password {
+  justify-content: center;
+  color: white;
+}
+
+.password {
+  margin-left: 3px;
+}
+
+.create-wallet-text {
+  color: white;
+}
+
+.enrollAndRegister {
+  margin-top: 50px;
+  font-size: 18px;
+  height: 60px;
+  min-width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #22C1FD;
+  border: 2px solid #22C1FD;
+}
+
+.enrollAndRegister:hover {
+  opacity: .3;
+}
+
+
+/* -----------------------------Import Private Key-------------------- */
+.import-page {
+  margin: auto;
+  width: 500px;
+  height: 900px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+
+  color: white;
+}
+
+.backToConnect {
+  margin: 10px 0px 50px 400px;
+  height: 30px;
+  width: 80px;
+  background-color: transparent;
+  color: white;
+
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.backToConnect:hover {
+  opacity: .3;
+}
+
+.connect-body-pk {
+  font-size: 14px;
+}
+
+.import-pk-here {
+  margin-top: 150px;
+}
+
+.private-key {
+  margin-left: 0px;
+}
+
+.connect-wallet-pk-text {
+  margin-top: 35px;
+}
+
+.keys {
+  margin-top: 25px;
+  justify-content: center;
+  color: white;
+}
+
+.connect-pk {
+  margin-top: 100px;
+  font-size: 18px;
+  height: 60px;
+  min-width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #22C1FD;
+  border: 2px solid #22C1FD;
+}
+
+.connect-pk:hover {
+  opacity: .3;
+}

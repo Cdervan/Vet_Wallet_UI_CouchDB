@@ -1,0 +1,214 @@
+.home-page {
+    margin: auto;
+    width: 600px;
+    height: 900px;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+
+.home-header {
+    background-color: #1e1e1f;
+    display: flex;
+    text-align: left;
+    height: 125px;
+    margin-top: 50px;
+    max-width: 600px;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    box-shadow: black;
+}
+
+.header-home-title {     margin-right: auto; }
+
+.username {
+    font-size: 36px;
+    color: white;
+    margin: 10px auto 10px 15px;
+}
+
+.address {
+    font-size: 13px;
+    color: white;
+    margin: 10px auto 10px 15px;
+    inline-size: 450px;
+    overflow-wrap: anywhere;
+}
+
+.account-link {
+    justify-content: right;
+    position: left;
+    
+    margin: 5px 0px 50px 10px;
+
+    font-size: 18px;
+    height: 85px;
+    background-color: transparent;
+    color: white;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.account-link:hover {
+    opacity: 0.5;
+}
+
+.balance {
+    display: flex;
+    margin: 100px auto 0px auto;
+    height: 100px;
+    width: 550px;
+    background-color: #161619;
+    border: 3px groove transparent;
+    border-radius: 6px;
+}
+
+.balance-title {
+    margin: auto auto auto 15px;
+    color: white;
+}
+
+.balance-box {
+    background-color: rgb(61, 56, 56);
+    margin: auto auto 30px 15px;
+    height: 35px;
+    width: 250px;
+    border: 3px solid transparent;
+}
+
+.balance-amt {
+    text-align: left;
+    margin: 8px auto auto 10px;
+    color: white;
+}
+
+.send-btn {
+    height: 35px;
+    width: 90px;
+    /* margin: 5px 5px; */
+    margin: 32px 5px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid #22C1FD;
+}
+
+.send-btn:hover {
+    opacity: .3;
+}
+
+.tx-wrapper {
+    margin: 100px auto 0px auto;
+    font-size: 30px;
+    color: white;
+
+    background-color: #161619;
+    max-height: 500px;
+    height: 450px;
+    width: 550px;
+    border-radius: 6px;
+    border: 2px solid transparent; 
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.tx-type { grid-area: type; }
+.tx-date { grid-area: date; }
+.tx-timestamp { grid-area: time;}
+.tx-amount { 
+    grid-area: price;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tx-box {
+    display: grid;
+    grid-template-areas:
+        'type type type price' 
+        'date time loc  price';
+    gap: 4px;
+    background-color: #1e1e1f;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.tx-box > p {
+    padding: 20px 0;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+/* --------------------- ACCOUNT SCREEN ------------------------------ */
+
+.account-page {
+    margin: auto;
+    width: 500px;
+    height: 900px;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+
+.cancel-btn {
+    margin: 60px 0px auto 250px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.body-btns {
+    margin-top: 250px;
+}
+
+.lock-btn {
+    min-width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+  
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.settings-btn {
+    margin-top: 100px;
+    min-width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: #22C1FD;
+  
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #22C1FD;
+}
+
+.cancel-btn:hover {
+    opacity: .3;
+}
+
+
+.lock-btn:hover {
+    opacity: .3;
+}
+
+.settings-btn:hover {
+    opacity: .3;
+}
+
+.account-screen-header {
+    display: flex;
+    margin: auto;
+    justify-content: baseline;
+    background-color: #161619;
+    color: white;
+    padding-bottom: 25px;
+}

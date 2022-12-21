@@ -1,0 +1,82 @@
+.send-page {
+    margin: auto;
+    /* padding-top: 20px; */
+    width: 500px;
+    height: 900px;
+    background-color: #1A1B21;
+    border-radius: 10px;
+    color: white;
+}
+
+.send-header {
+    display: flex;
+    background-color: #1e1e1f;
+    margin-top: 20px;
+    font-size: 42px;
+    color: white;
+    justify-content: center;
+}
+
+.cancel-send-btn {
+    margin: 20px 0px 50px 400px;
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.cancel-send-btn:hover {
+    opacity: .3;
+}
+
+.recipient-info {
+    padding-top: 0px;
+    font-size: 24px;
+}
+
+.address_search {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    /* margin: auto auto auto 100px; */
+    justify-content: center;
+}
+
+.amount {
+    display: flex;
+    margin: -30px auto 0 auto;
+    width: 200px;
+    height: 30px;
+    /* margin: auto auto auto 100px; */
+    justify-content: center;
+}
+
+
+.submit-send {
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    border: 2px solid #22C1FD;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.submit-send:hover {
+    opacity: .3;
+}
+
+.recent {
+    margin-top: 100px;
+    padding-top: 10px;
+    font-size: 22px;
+
+    background-color: #161619;
+
+    height: 405px;
+    width: 500px;
+    border-radius: 6px;
+}
