@@ -30,6 +30,7 @@ function TxtData() {
                 <p className="tx-timestamp">ti:me</p>
                 <p className="tx-loc">state</p>
                 <p className="tx-amount">$amount</p>
+                </div>
 
                 {/* {typeof backendData.data.forEach(data => {
                         <div>
@@ -54,7 +55,7 @@ function TxtData() {
                 } */}
                         
 
-                </div>
+                
             </div>
         </div>
     );

@@ -133,15 +133,27 @@ function Home() {
                 </button>
             </div>
 
-            <div>
+            <div className="tx-wrapper">
                 {objArray.map((tx, i) => 
                     <div key={i}>
-                        <p>Name: {tx.value.name}</p>
+                        {/* <p>Name: {tx.value.name}</p>
                         <p>Wallet: {tx.value.wAddress}</p>
                         <p>Price: {tx.value.price}</p>
                         <p>Location: {tx.value.loc}</p>
                         <p>Timestamp: {tx.value.timestamp}</p>
-                        <p>Tx ID: {tx.value.tx_id}</p>
+                        <p>Tx ID: {tx.value.tx_id}</p> */}
+
+                        {
+                            
+                            <div className="tx-box">
+                                <h2 className="tx-type"> EBT purchase </h2>
+                                <p className="tx-date"> { tx.value.timestamp } </p>
+                                {/* <p> className="tx-timestamp">ti:me</p> */}
+                                <p className="tx-loc"> { tx.value.location } </p>
+                                <p className="tx-amount"> $ { tx.value.price } </p>
+                            </div>
+                             
+                        }
                     </div>
                 )}
             </div>

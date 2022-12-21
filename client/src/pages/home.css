@@ -99,6 +99,8 @@
     opacity: .3;
 }
 
+/* -------------------------- TXT DATA -------------------------------- */
+
 .tx-wrapper {
     margin: 100px auto 0px auto;
     font-size: 30px;
@@ -112,6 +114,7 @@
     border: 2px solid transparent; 
     /* display: flex;
     flex-direction: column; */
+    overflow: scroll;
 }
 
 .tx-type { grid-area: type; }
@@ -133,6 +136,7 @@
     background-color: #1e1e1f;
     padding: 10px;
     border-radius: 5px;
+    border: 2px, dotted, rgb(61, 56, 56)
     
 }
 
